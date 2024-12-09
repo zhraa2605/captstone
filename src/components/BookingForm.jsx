@@ -34,7 +34,7 @@ export default function BookingForm() {
       <form onSubmit={handleSubmit}>
         <div className="bg-light p-4 rounded shadow-lg mx-auto w-75">
           <div className="mb-3">
-            <label htmlFor="firstName" className="form-label text-white">
+            <label htmlFor="firstName" className="form-label text-black">
               First Name
             </label>
             <input
@@ -48,7 +48,7 @@ export default function BookingForm() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="lastName" className="form-label text-white">
+            <label htmlFor="lastName" className="form-label text-black">
               Last Name
             </label>
             <input
@@ -62,7 +62,7 @@ export default function BookingForm() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="email" className="form-label text-white">
+            <label htmlFor="email" className="form-label text-black">
               Email Address
             </label>
             <input
@@ -76,7 +76,7 @@ export default function BookingForm() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="date" className="form-label text-white">
+            <label htmlFor="date" className="form-label text-black">
               Date
             </label>
             <input
@@ -89,7 +89,7 @@ export default function BookingForm() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="time" className="form-label text-white">
+            <label htmlFor="time" className="form-label text-black">
               Choose Time
             </label>
             <select
@@ -107,7 +107,7 @@ export default function BookingForm() {
             </select>
           </div>
           <div className="mb-3">
-            <label htmlFor="guests" className="form-label text-white">
+            <label htmlFor="guests" className="form-label text-black">
               Number of Guests
             </label>
             <input
